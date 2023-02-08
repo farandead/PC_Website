@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap");
+
+:root {
+    --color: #f85300;
+  }
+
+
+* {
+  transition: 0.2s all ease-in-out;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-devices-display-container{
+    margin-top: 10vmax;
+    margin-bottom:10vmax ;
+}
+.main-devices-title{
+    font-size: 2vmax;
+    padding-bottom: 2vmax;
+
+    font-weight: bolder;
+    font-family: 'Staatliches', cursive;
+
+    letter-spacing: 4PX;
+    color: var(--color);
+
+}
+
+.devices-container {
+    
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5vmax;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+    border: 1px solid #ffffff;
+    padding: 10px 10px;
+    width: 8vmax;
+    border-radius: 80%;
+  }
+  
+  .devices-container:hover {
+   background-color: var(--color);
+   border:1px solid var(--color);
+   cursor: pointer;
+   box-shadow: 0px 0px 10px rgb(97, 97, 97);
+  }
+  
+  
+  .devices-container p {
+    font-size: 0.7vmax;
+    color:white;
+    padding-bottom: 10px;
+  }
+  .main-devices-display-container{
+     
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      justify-items: center;
+  }
+  .main-devices-sub-container{
+      margin-top: 1vmax;
+      display: flex;
+      justify-content: space-evenly;
+      justify-items: center;
+      align-items: center;
+      align-content: space-around;
+      margin-bottom: 1vmax;
+  
+  }
+  .main-device-container{
+     box-shadow: 0px 0px 10px rgba(88, 88, 88, 0.2);
+      padding: 1vmax 1vmax;
+      width:15vmax ;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      justify-items: center;
+      flex-direction: column;
+      margin-left:1vmax ;
+      margin-right:1vmax ;
+  }
+  .main-device-container:hover{
+    transform: scale(130%);
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .main-device-img img{
+      width: 10vmax;
+  }
+  .main-device-title p{
+      font-size: 1vmax;
+      font-weight: bold;
+  
+  }
+  .main-device-description{
+      font-size: 0.8vmax;
+  }

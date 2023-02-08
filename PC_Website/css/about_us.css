@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+:root {
+    --color: #f85300;
+  }
+  
+.about_us_container{
+    display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: space-around;
+   justify-items: center;
+   width: 80vmax;
+   margin: auto;
+}
+.about-container-img img{
+    width: 20vmax;
+    padding-right: 6vmax;
+}
+.about-container-description{
+   display: flex;
+   flex-direction: column;
+  text-align: center;
+}
+.about-container-descriptioin-heading{
+    font-size: 2.5vmax;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    padding-bottom: 2vmax;
+    font-weight: 900;
+    letter-spacing: 0.2vmax;
+    color: var(--color);
+}
